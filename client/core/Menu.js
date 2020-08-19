@@ -18,16 +18,16 @@ const Menu = withRouter(({history}) => (
   <AppBar position="static">
     <Toolbar>
       <Typography variant="h6" color="inherit">
-        MERN Skeleton
+        Accountability
       </Typography>
       <Link to="/">
         <IconButton aria-label="Home" style={isActive(history, "/")}>
           <HomeIcon/>
         </IconButton>
       </Link>
-      <Link to="/users">
+      {/* <Link to="/users">
         <Button style={isActive(history, "/users")}>Users</Button>
-      </Link>
+      </Link> */}
       {
         !auth.isAuthenticated() && (<span>
           <Link to="/signup">

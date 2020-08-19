@@ -36,13 +36,12 @@ export default function Home(){
     return (
         <Card className={classes.card}>
           <Typography variant="h6" className={classes.title}>
-            Home Page
+            For those that work better in a team
           </Typography>
           <CardMedia className={classes.media} image={unicornbikeImg} title="Unicorn Bicycle"/>
-          <Typography variant="body2" component="p" className={classes.credit} color="textSecondary">Photo by <a href="https://unsplash.com/@boudewijn_huysmans" target="_blank" rel="noopener noreferrer">Boudewijn Huysmans</a> on Unsplash</Typography>
           <CardContent>
             <Typography variant="body1" component="p">
-              Welcome to the MERN Skeleton home page.
+              Welcome to the Accountability Program
             </Typography>
           </CardContent>
         </Card>
