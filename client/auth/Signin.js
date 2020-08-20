@@ -38,7 +38,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default function Signin(props) {
-  const classes = useStyles()
+  const classes = useStyles();
   const [values, setValues] = useState({
       email: '',
       password: '',
@@ -73,7 +73,7 @@ export default function Signin(props) {
       }
   }
   const {redirectToReferrer} = values
-  if (redirectToReferrer) {
+    if (redirectToReferrer) {
       return (<Redirect to={from}/>)
   }
 
